@@ -2,7 +2,7 @@
 
 template <typename T>
 struct node {
-    const T& m_data;
+    const T m_data;
 
     node(const T& data): m_data(data) {
     }
